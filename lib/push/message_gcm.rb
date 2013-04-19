@@ -9,7 +9,7 @@ module Push
 
     def to_message
       hsh = Hash.new
-      hsh['registration_ids'] = [device]
+      hsh['registration_ids'] = device
       hsh['collapse_key'] = collapse_key if collapse_key
       hsh['delay_when_idle'] = delay_when_idle if delay_when_idle
       hsh['time_to_live'] = time_to_live if time_to_live
