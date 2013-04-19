@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = PushGcm::VERSION
   s.authors     = ["Tom Pesman"]
   s.email       = ["tom@tnux.net"]
-  s.homepage    = "https://github.com/tompesman/push-gcm"
+  s.homepage    = "https://github.com/thomasstr/push-gcm"
   s.summary     = "GCM (Android) part of the modular push daemon."
   s.description = "GCM support for the modular push daemon."
 
